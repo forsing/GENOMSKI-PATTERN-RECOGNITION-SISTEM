@@ -60,11 +60,11 @@ OSNOVNA_STOPA = BROJEVA_U_KOMBINACIJI / BROJ_KUGLICA
 SLUCAJNO_OCEKIVANJE = BROJEVA_U_KOMBINACIJI**2 / BROJ_KUGLICA
 
 LOTO_CSV = Path(
-    "/Users/4c/Desktop/GHQ/data/loto7_4680_k71_loto_2962.csv"
+    "/data/loto7_4680_k71_loto_2962.csv"
 )
 
 LOTO_PLUS_CSV = Path(
-    "/Users/4c/Desktop/GHQ/data/loto7_4680_k71_loto_plus_1718.csv"
+    "/data/loto7_4680_k71_loto_plus_1718.csv"
 )
 
 # Dužina vremenskog k-mera izražena brojem uzastopnih izvlačenja.
@@ -1876,7 +1876,7 @@ CSV referentni genom → k-mer/minimizer indeks i pretraga → sekvencijalno por
 ==============================================================================
 OBRADA: Loto
 ==============================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4680_k71_loto_2962.csv
+CSV: /data/loto7_4680_k71_loto_2962.csv
 Broj redova: 2962
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -1918,7 +1918,7 @@ Zamrznuta holdout provera...
 ==============================================================================
 OBRADA: Loto Plus
 ==============================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4680_k71_loto_plus_1718.csv
+CSV: /data/loto7_4680_k71_loto_plus_1718.csv
 Broj redova: 1718
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -1960,13 +1960,13 @@ Zamrznuta holdout provera...
 ##############################################################################
 KONAČNE NEXT PREDIKCIJE
 ##############################################################################
-Loto:      19, 22, 23, 24, 25, 26, 35
-Loto Plus: 08, 22, 23, 27, 31, 33, 34
+Loto:      19, x, 23, y, 25, z, 35
+Loto Plus: 08, x, 23, y, 31, z, 34
 
 ##############################################################################
 Loto
 ##############################################################################
-NEXT: 19, 22, 23, 24, 25, 26, 35
+NEXT: 19, x, 23, y, 25, z, 35
 CSV redova: 2962
 Sličnih istorijskih regiona: 60
 
@@ -1978,11 +1978,11 @@ Težine modela:
 
 Izabrani brojevi i Bajesova procena:
   Broj 19 — ensemble 0.309009 — Bajes 0.254798 — širina 95% intervala 0.189019
-  Broj 22 — ensemble 0.277077 — Bajes 0.127074 — širina 95% intervala 0.143902
+  Broj x  — ensemble 0.277077 — Bajes 0.127074 — širina 95% intervala 0.143902
   Broj 23 — ensemble 0.248432 — Bajes 0.212435 — širina 95% intervala 0.177296
-  Broj 24 — ensemble 0.278963 — Bajes 0.272779 — širina 95% intervala 0.193248
+  Broj y  — ensemble 0.278963 — Bajes 0.272779 — širina 95% intervala 0.193248
   Broj 25 — ensemble 0.243321 — Bajes 0.232091 — širina 95% intervala 0.183061
-  Broj 26 — ensemble 0.303035 — Bajes 0.191166 — širina 95% intervala 0.170354
+  Broj z  — ensemble 0.303035 — Bajes 0.191166 — širina 95% intervala 0.170354
   Broj 35 — ensemble 0.241860 — Bajes 0.155029 — širina 95% intervala 0.156606
 
 Zamrznuta holdout provera:
@@ -2002,7 +2002,7 @@ GLAVNI ODGOVOR:
 ##############################################################################
 Loto Plus
 ##############################################################################
-NEXT: 08, 22, 23, 27, 31, 33, 34
+NEXT: 08, x, 23, y, 31, z, 34
 CSV redova: 1718
 Sličnih istorijskih regiona: 60
 
@@ -2014,11 +2014,11 @@ Težine modela:
 
 Izabrani brojevi i Bajesova procena:
   Broj 08 — ensemble 0.251318 — Bajes 0.207507 — širina 95% intervala 0.175756
-  Broj 22 — ensemble 0.248489 — Bajes 0.207897 — širina 95% intervala 0.175879
+  Broj x  — ensemble 0.248489 — Bajes 0.207897 — širina 95% intervala 0.175879
   Broj 23 — ensemble 0.385405 — Bajes 0.235559 — širina 95% intervala 0.184018
-  Broj 27 — ensemble 0.249374 — Bajes 0.184128 — širina 95% intervala 0.167881
+  Broj y  — ensemble 0.249374 — Bajes 0.184128 — širina 95% intervala 0.167881
   Broj 31 — ensemble 0.347245 — Bajes 0.303560 — širina 95% intervala 0.199565
-  Broj 33 — ensemble 0.269252 — Bajes 0.264137 — širina 95% intervala 0.191267
+  Broj z  — ensemble 0.269252 — Bajes 0.264137 — širina 95% intervala 0.191267
   Broj 34 — ensemble 0.425316 — Bajes 0.202158 — širina 95% intervala 0.174038
 
 Zamrznuta holdout provera:
