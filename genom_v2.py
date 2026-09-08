@@ -55,7 +55,7 @@ OSNOVNA_STOPA = BROJEVA_U_KOMBINACIJI / BROJ_KUGLICA
 SLUCAJNO_OCEKIVANJE = BROJEVA_U_KOMBINACIJI**2 / BROJ_KUGLICA
 
 ZAJEDNICKI_CSV = Path(
-    "/Users/4c/Desktop/GHQ/data/loto7_4680_k71.csv"
+    "/data/loto7_4680_k71.csv"
 )
 
 # Dužina vremenskog k-mera izražena brojem uzastopnih izvlačenja.
@@ -1844,7 +1844,7 @@ CSV referentni genom
 ==============================================================================
 OBRADA: Loto
 ==============================================================================
-CSV: /Users/4c/Desktop/GHQ/data/loto7_4680_k71.csv
+CSV: /data/loto7_4680_k71.csv
 Broj redova: 4680
 Prvi red se tretira kao najstariji.
 Poslednji red se tretira kao najnoviji.
@@ -1886,12 +1886,12 @@ Zamrznuta holdout provera...
 ##############################################################################
 KONAČNA NEXT PREDIKCIJA
 ##############################################################################
-NEXT: 08, 20, 24, 26, 32, 33, 34
+NEXT: 08, x, 24, y, 32, z, 34
 
 ##############################################################################
 Loto
 ##############################################################################
-NEXT: 08, 20, 24, 26, 32, 33, 34
+NEXT: 08, x, 24, y, 32, z, 34
 CSV redova: 4680
 Sličnih istorijskih regiona: 60
 
@@ -1903,11 +1903,11 @@ Težine modela:
 
 Izabrani brojevi i Bajesova procena:
   Broj 08 — ensemble 0.333548 — Bajes 0.192455 — širina 95% intervala 0.170797
-  Broj 20 — ensemble 0.295215 — Bajes 0.232444 — širina 95% intervala 0.183159
+  Broj x  — ensemble 0.295215 — Bajes 0.232444 — širina 95% intervala 0.183159
   Broj 24 — ensemble 0.256694 — Bajes 0.232336 — širina 95% intervala 0.183129
-  Broj 26 — ensemble 0.248108 — Bajes 0.178221 — širina 95% intervala 0.165733
+  Broj y  — ensemble 0.248108 — Bajes 0.178221 — širina 95% intervala 0.165733
   Broj 32 — ensemble 0.254611 — Bajes 0.222369 — širina 95% intervala 0.180284
-  Broj 33 — ensemble 0.290263 — Bajes 0.186765 — širina 95% intervala 0.168818
+  Broj z  — ensemble 0.290263 — Bajes 0.186765 — širina 95% intervala 0.168818
   Broj 34 — ensemble 0.288664 — Bajes 0.194050 — širina 95% intervala 0.171341
 
 Zamrznuta holdout provera:
